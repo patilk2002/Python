@@ -126,7 +126,7 @@ function calculateAlk() {
   var alkalinity = (volH2SO4 * normality * 50 * 1000) / sampleVol;
   console.log(volH2SO4)
   document.getElementById('result').innerHTML = 'Alkalinity of given sample is' + alkalinity + ' mg/L of CaCO3'
-  document.write( 'Alkalinity of given sample is' + alkalinity + ' mg/L of CaCO3');
+  document.write( 'Alkalinity of given sample is : ' + alkalinity + ' mg/L of CaCO3');
   return false;
 }
 function checkRange() {
